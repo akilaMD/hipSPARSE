@@ -10,7 +10,6 @@ ARG user_uid
 RUN zypper refresh
 RUN zypper -n --no-gpg-checks install \
     sudo \
-#    rock-dkms \
     ca-certificates \
     git \
     cmake \
